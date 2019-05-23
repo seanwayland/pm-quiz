@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project Management Quiz! ;)</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="COSC250 Project Management">
+    <meta name="keywords" content="COSC250, Project Management, UNE">
+    <meta name="author" content="Adam Austin">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/your_custom.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/questions.js"></script>
+    <script type="text/javascript" src="js/quiz.js"></script>
+    
+</head>
+<body>
+    <!-- wrapper -->
+    <div id="wrapper">
+        <!-- main content -->
+        <div id="content" class="col">
+            <!-- quiz questions -->
+            <form id="quiz">
+                <legend><h2>Project Management Quiz</h2></legend>
+                
+                <!-- QUIZ QUESTION TEXT SHOULD GO HERE -->
+                <fieldset>
+                    <label id="quiz_question">QUESTION TEXT HERE</label>
+                </fieldset>
+                
+                <!-- POSSIBLE QUIZ ANSWERS GO HERE -->
+                <fieldset id="answers">
+                    <fieldset class="info_box">
+                        <label for="answer_a">ANSWER 1</label>
+                        <input type="radio" name="answer" id="answer_a" value="a" />
+                    </fieldset>
+                    <fieldset class="info_box">
+                        <label for="answer_b">ANSWER 2</label>
+                        <input type="radio" name="answer" id="answer_b" value="b"/>
+                    </fieldset>
+                    <fieldset class="info_box">
+                        <label for="answer_c">ANSWER 3</label>
+                        <input type="radio" name="answer" id="answer_c" value="c"/>
+                    </fieldset>
+                    <fieldset class="info_box">
+                        <label for="answer_d">ANSWER 4</label>
+                        <input type="radio" name="answer" id="answer_d" value="d"/>
+                    </fieldset>    
+                </fieldset>
+                <fieldset>
+                    <input type="submit" id="sub" class="button"/>
+                </fieldset>
+            </form>
+            
+            <!-- DISPLAY FORM MESSAGES TO THE USER HERE -->
+            <!-- E.G. FORM VALIDATION ERRORS -->
+            <div id="user_message" class="info_box invisible">
+            </div>
+        </div>
+        
+        <!-- sidebar -->
+        <aside id="sidebar" class="col">
+            <p id="welcome">Welcome to the Project Management Quiz! </p>
+            
+            
+            <ul id="score" class="hidden">
+                <li id="attempted">Attempted:</li>
+                <li id="correct">Correct: </li>
+                <li id="incorrect">Incorrect: </li>
+            </ul>
+        </aside>
+        
+        <!-- footer -->
+        <footer>
+            
+            <div id="user_id"><p>Created by Adam Austin</p></div>
+        </footer>
+    </div>
+</body>
+</html>
