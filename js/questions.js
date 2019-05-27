@@ -93,7 +93,7 @@ let $questions = [{
         "b": "The project was on time",
         "c": "The software specification and the user requirements were met",
         "d": "Minimal change requests from the client",
-        "answer": ""
+        "answer": "c"
 },
 {
         "question" : "Project managers have to assess the risks that may affect a project.",
