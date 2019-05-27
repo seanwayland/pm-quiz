@@ -1,8 +1,8 @@
 
 let $questions = [{
         "question" : "Planning is the intelligent estimate of resources required to perform a predefined project successfully at a future date within a defined environment.",
-        "a": "T",
-        "b": "F",
+        "a": "True",
+        "b": "False",
         "c": "NA",
         "d": "NA",
         "answer": "a"
@@ -81,10 +81,66 @@ let $questions = [{
 },  
 {
         "question" : "Poor kick-off meetings is a common pitfall of software project initiation?",
-        "a": "T",
-        "b": "F",
+        "a": "True",
+        "b": "False",
         "c": "NA",
         "d": "NA",
+        "answer": "b"
+},  
+{
+        "question" : "Which of the following is not considered a criteria for success?",
+        "a": "The project was on cost",
+        "b": "The project was on time",
+        "c": "The software specification and the user requirements were met",
+        "d": "Minimal change requests from the client",
+        "answer": ""
+},
+{
+        "question" : "Project managers have to assess the risks that may affect a project.",
+        "a": "True",
+        "b": "False",
+        "c": "None",
+        "d": "Both",
+        "answer": "b"
+},  
+{
+        "question" : "Which of the following is not considered as a risk in project management?",
+        "a": "Specification delays",
+        "b": "Product competition",
+        "c": "Testing",
+        "d": "Staff turnover",
+        "answer": "c"
+},  
+{
+        "question" : "The process each manager follows during the life of a project is known as:",
+        "a": "Project Management",
+        "b": "Manager life cycle",
+        "c": "Project Management Life Cycle",
+        "d": "All of the above",
+        "answer": "c"
+},  
+{
+        "question" : "A general statement of objectives is the major cause of failed software efforts.",
+        "a": "True",
+        "b": "False",
+        "c": "None",
+        "d": "Both",
+        "answer": "a"
+},  
+{
+        "question" : "Requirements traceability is one of the most important part requirement management. It may also be referred to as the heart of requirement management.",
+        "a": "True",
+        "b": "False",
+        "c": "None",
+        "d": "Both",
+        "answer": "a"
+},  
+{
+        "question" : "According to a statistical report: 'over 30% of all software projects are cancelled before completion and over 70% of the remainder fail to deliver expected features'. What must be the reason for such a situation?",
+        "a": "Poor change management",
+        "b": "Poor requirements management",
+        "c": "Poor quality control",
+        "d": "All of the above",
         "answer": "b"
 },  
 ];
