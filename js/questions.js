@@ -67,7 +67,7 @@ let $questions = [{
         "question" : "What is not a benefit of prince 2",
         "a": "Allows early warning and detection of problems.",
         "b": "Consistent set of benchmarks, processes, and procedures.",
-        "c": "Quick iteration springs of the project",
+        "c": "Quick iteration sprints of the project",
         "d": "Official certification and qualification scheme for professionals.",
         "answer": "c"
 },  
