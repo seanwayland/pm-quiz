@@ -1,3 +1,4 @@
-# quiz [here](https://github.com/seanwayland/pm-quiz/js/quiz.js)
+# quiz [here](https://h3x.github.io/PM-quiz/)
+
 
 
