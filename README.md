@@ -1,1 +1,3 @@
-# quiz [here](https://h3x.github.io/PM-quiz/)
+# quiz [here](https://github.com/seanwayland/pm-quiz/)
+
+
